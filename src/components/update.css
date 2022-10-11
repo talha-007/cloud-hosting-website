@@ -1,0 +1,17 @@
+.updates{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    padding: .5rem 3rem;
+    height: fit-content;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    z-index: 1;
+}
+.updates p{
+    color: #fff;
+}
+ a{
+    color: #EE9617;
+    cursor: pointer;
+}
