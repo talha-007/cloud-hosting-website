@@ -19,8 +19,8 @@ function Solutions() {
           <p>Host Any Software On Our Secured Cloud Now</p>
         </div>
         <div className='sol_btns'>
-          <button type="">Try Now Free</button>
-          <button type="">See Plans & Offers</button>
+          <button className='try'>Try Now Free</button>
+          <button className='plans'>See Plans & Offers</button>
         </div>
       </div>
       <div className='sol_img'>

@@ -27,6 +27,63 @@
     -ms-transform: translateY(10rem);
     -o-transform: translateY(10rem);
 }
+.sol_content{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.sol_content::before{
+    content: 'Cloud Hosting';
+    font-size: .5rem;
+    color: #fff;
+}
+.sol_content_ p{
+    color: #fff;
+    font-size: 1rem;
+}
+.sol_content_ h1{
+    font-size: 3rem;
+    color: #fff;
+}
+.sol_btns{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.sol_btns .try{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    cursor: pointer;
+}
+.sol_btns .try:hover{
+    background-color: #fff;
+    color: #d44800;
+}
+.sol_btns .plans{
+    background-color: #fff;
+    color: #d44800;
+    border: none;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: .5rem 1rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+.sol_btns .plans:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
 .sol_img{
     display: flex;
     flex-direction: column;
@@ -41,16 +98,37 @@
     box-shadow: 2px 4px 20px rgba(0, 0, 0, .3);
     justify-content: center;
     align-items: center;
-    transform: translate(12.5rem, -3rem);
-    -webkit-transform: translate(12.5rem, -3rem);
-    -moz-transform: translate(12.5rem, -3rem);
-    -ms-transform: translate(12.5rem, -3rem);
-    -o-transform: translate(12.5rem, -3rem);
+    transform: translate(14.5rem, -3rem);
+    -webkit-transform: translate(14.5rem, -3rem);
+    -moz-transform: translate(14.5rem, -3rem);
+    -ms-transform: translate(14.5rem, -3rem);
+    -o-transform: translate(14.5rem, -3rem);
     -webkit-border-radius: .4rem;
     -moz-border-radius: .4rem;
     -ms-border-radius: .4rem;
     -o-border-radius: .4rem;
+    padding: 3rem;
 }
-.img1 img{
+.sol_img img{
     width: 100%;
+}
+.sol_img .img2{
+    width: 24.5rem;
+    height: 15.5rem;
+    background-color: #fff;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+    padding: 2rem;
+    transform: translate(-5rem, -7rem);
+    -webkit-transform: translate(-5rem, -7rem);
+    -moz-transform: translate(-5rem, -7rem);
+    -ms-transform: translate(-5rem, -7rem);
+    -o-transform: translate(-5rem, -7rem);
 }
